@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom"
+
+import { FaSquareFacebook, FaSquareInstagram, FaLinkedin, FaSquareGithub } from "react-icons/fa6";
 
 
 
@@ -35,7 +38,86 @@ const Footer = () => {
 
       </footer>
 
-      <footer className="py-4"></footer>
+      <footer className="py-4">
+        <div className="container-xxl">
+          <div className="row">
+
+            <div className="col-3">
+            <h6 className="text-white pb-4">Contact Us</h6>
+              <div className="d-flex flex-column">
+                <Link className="text-white pb-2 mb-0 smallText">SRMART</Link>
+                <address className="text-white pb-3 smallText">
+                Uttara, Airport, Dhaka-1230 <br/> Bangladesh
+                </address>
+                <a href="tel:+88 01234567890" className="text-white pb-3 smallText">01234567890</a>
+                <a href="mailto:srmart@gmail.com" className="text-white smallText mb-0">srmart@gmail.com</a>
+
+                <div className="social-links d-flex align-items-center mt-2 gap-15">
+                  <a className="text-white fs-2" href="">
+                    <FaSquareFacebook />
+                  </a>
+                  <a className="text-white fs-2" href="">
+                    <FaSquareInstagram />
+                  </a>
+                  <a className="text-white fs-2" href="">
+                    <FaLinkedin />
+                  </a>
+                  <a className="text-white fs-2" href="">
+                    <FaSquareGithub />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-2">
+              <h6 className="text-white pb-3">Information</h6>
+              <div className="d-flex flex-column">
+                <Link to='' className="text-white pb-2 smallText">privacy Policy</Link>
+                <Link to='' className="text-white pb-2 smallText">Refund Policy</Link>
+                <Link to='' className="text-white pb-2 smallText">Shipping Policy</Link>
+                <Link to='' className="text-white pb-2 smallText">Terms of Service</Link>
+                <Link to='' className="text-white smallText mb-0">Blogs</Link>
+              </div>
+            </div>
+
+            <div className="col-2">
+            <h6 className="text-white pb-3">Account</h6>
+              <div className="d-flex flex-column">
+                <Link to='' className="text-white pb-2 smallText">Search</Link>
+                <Link to=''className="text-white pb-2 smallText">About Us</Link>
+                <Link to=''className="text-white pb-2 smallText">Faq</Link>
+                <Link to='' className="text-white pb-2 smallText">Contact</Link>
+                <Link to='' className="text-white smallText mb-0">Size Chart</Link>
+              </div>
+            </div>
+
+            <div className="col-2">
+            <h6 className="text-white pb-3">Quick Link</h6>
+              <div className="d-flex flex-column">
+                <Link to='' className="text-white pb-2 smallText">Accessories</Link>
+                <Link to='' className="text-white pb-2 smallText">Loptops</Link>
+                <Link to='' className="text-white pb-2 smallText">Headphones</Link>
+                <Link to='' className="text-white pb-2 smallText">Smart Watch</Link>
+                <Link to=''className="text-white smallText mb-0">Tablets</Link>
+              </div>
+            </div>
+
+            <div className="col-3">
+              <div>
+                <h6 className="text-white pb-3">Our App</h6>
+                <p className="text-white smallText">Download our app and get extra 15% Discount on your First order</p>
+                
+                <div className="d-flex align-items-center gap-10">
+                  <Link><img src="/images/google-play.png" alt="google" /></Link>
+                  <Link><img src="/images/app-store.png" alt="app" /></Link>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </footer>
 
       <footer className="py-4">
         <div className="container-xxl">

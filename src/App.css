@@ -31,6 +31,9 @@ a{
 .gap-30{
     gap:30px;
 }
+.smallText{
+    font-size: 13px;
+}
 
 /* Header part */
 
