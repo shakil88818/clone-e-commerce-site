@@ -53,7 +53,12 @@ a{
     background-color: white;
     box-shadow: 0px 0px 10px #0000001a;
 }
-
+.section-heading{
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
 /* Header part */
 
 .header-top-strip{
@@ -224,4 +229,21 @@ footer .input-group-text{
 }
 /* catagories section end */
 /* home wrapper 2 end  */
+
+
 /* Home Section End */
+
+/* blog card */
+.blog-card{
+    background-color: white;
+    border-radius: 10px;
+}
+.blog-content p{
+    font-size: 0.9rem;
+}
+.blog-content h6{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+/* Blog Card end */
