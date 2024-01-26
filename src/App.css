@@ -240,10 +240,51 @@ footer .input-group-text{
 }
 .blog-content p{
     font-size: 0.9rem;
+    letter-spacing: 0.3px;
 }
 .blog-content h6{
     font-size: 1.1rem;
     font-weight: 500;
+    letter-spacing: 0.3px;
 }
 
+/* Blog Card end */
+
+/* blog card */
+.product-card{
+    background-color: white;
+    padding: 16px;
+    border-radius: 10px;
+    letter-spacing: 0.3px;
+    overflow: hidden;
+}
+.product-card:hover .action-bar{
+    right: 17px;
+}
+.product-content h6{
+    font-size: 1rem;
+    color: var(--color-bf4800);
+    letter-spacing: 0.3px;
+}
+.product-content h5{
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+.product-content p{
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+
+.action-bar{
+    top: 12%;
+    right: -26%;
+    transition: 0.3s;
+}
+
+.wishlist-icon{
+    top: 5%;
+    right: 17px;
+}
 /* Blog Card end */
