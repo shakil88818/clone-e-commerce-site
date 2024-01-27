@@ -288,3 +288,12 @@ footer .input-group-text{
     right: 17px;
 }
 /* Blog Card end */
+
+
+/* Special product */
+.special-product-card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+/* special product end */
