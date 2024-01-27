@@ -11,6 +11,7 @@
     --color-bf4800: #bf4800;
     --color-f5f5f7: #f5f5f7;
     --color-ededed: #ededed;
+    --color-777777: #777777;
 }
 
 body{
@@ -297,3 +298,70 @@ footer .input-group-text{
     border-radius: 10px;
 }
 /* special product end */
+
+/* Our Store  */
+
+.filter-card{
+    padding:20px;
+    border-radius: 10px;
+    background-color: white;
+}
+.filter-title{
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+}
+.filter-card ul,
+.filter-card .form-check-label,
+.filter-card-price{
+    list-style: none;
+    font-size: 0.9rem;
+    line-height: 30px;
+    color: var(--color-777777);
+}
+.filter-sub-title{
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+}
+.filter-card .form-check-input{
+    border-color: var(--color-bf4800);
+}
+.filter-card .form-check-input:focus{
+    box-shadow: none;                                              ;
+}
+.filter-card .form-check-input:checked{
+    background-color: var(--color-bf4800);
+    border-color: var(--color-bf4800);
+}
+.colors li{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.border-bottom{
+    border-bottom: 1px solid var(--color-3b4149);
+}
+
+.sort-grid{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.gr-img img{
+    width: 22px;
+    height: 22px;
+    background-color: var(--color-ededed);
+    border-radius: 4px;
+    padding: 2px;
+    
+}
+.sort-menu{
+    list-style: none;
+    font-size: 0.9rem;
+    color: var(--color-777777);
+}
+/* our Store End */
