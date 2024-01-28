@@ -85,11 +85,11 @@ const Contact = () => {
                             </li>
                             <li className="d-flex align-items-center gap-10">
                               <FaPhone />
-                              <address className="mb-0">+88 01234567890</address>
+                              <a className="mb-0 text-dark" href="tel:+88 01234567890">+88 01234567890</a>
                             </li>
                             <li className="d-flex align-items-center gap-10">
                               <IoIosMail />
-                              <address className="mb-0">srmart@gmail.com</address>
+                              <a className="mb-0 text-dark" href="mailto:srmart@gmail.com">srmart@gmail.com</a>
                             </li>
                             <li className="d-flex align-items-center gap-10">
                               <FaInfo />
