@@ -21,7 +21,14 @@ a{
     text-decoration: none;
     display: inline-block;
 }
-
+ul{
+    list-style: none;
+}
+.title{
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+}
 .form-control:focus{
     box-shadow: none;
     border-color: inherit;
@@ -392,3 +399,39 @@ footer .input-group-text{
     list-style: none;
 }
 /* contact page end */
+
+
+/* compare products */
+
+.compare-card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.compare-card .compare-cross{
+    top: 15px;
+    right: 15px;
+    width:20px;
+    cursor: pointer;
+}
+
+.product-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--color-777777);
+    padding: 10px 0px;
+}
+.product-details h6{
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    margin-bottom: 0;
+}
+.product-details p {
+    font-size: 0.9rem;
+    color: var(--color-777777);
+    margin-bottom: 0;
+}
+/* compare products end */

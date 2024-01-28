@@ -1,6 +1,9 @@
 
 import BreadCrumb from "../components/BreadCrumb"
 import MetaTitle from "../components/MetaTitle"
+
+import Colors from "../components/Colors";
+
 import ReactStars from "react-rating-stars-component";
 
 const OurStore = () => {
@@ -60,24 +63,7 @@ const OurStore = () => {
                     <p className="filter-sub-title pt-3">Color</p>
 
                     <div className="">
-                      <ul className="colors d-flex flex-wrap gap-10 ps-0">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                      </ul>
+                      <Colors />
                     </div>
                   </div>
 
