@@ -365,3 +365,30 @@ footer .input-group-text{
     color: var(--color-777777);
 }
 /* our Store End */
+
+/* contact page */
+.contact-inner-wrapper{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+.contact-title{
+    font-size: 1.54rem;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+}
+.contact-inner-wrapper input,
+.contact-inner-wrapper textarea{
+    background-color: var(--color-ededed);
+    border: none;
+}
+.contact-inner-wrapper input:focus,
+.contact-inner-wrapper textarea:focus{
+    background-color: var(--color-ededed);
+    border: none;
+}
+
+.contact-icons ul{
+    list-style: none;
+}
+/* contact page end */
