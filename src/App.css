@@ -471,6 +471,7 @@ footer .input-group-text{
 .login-card h5{
     font-size: 20px;
     color: var(--color-777777);
+    font-weight: 600;
 }
 .login-card .form-control{
     background-color: var(--color-ededed);
