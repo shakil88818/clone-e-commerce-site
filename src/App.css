@@ -457,3 +457,29 @@ footer .input-group-text{
     border-radius: 10px;
 }
 /* wishlist card end */
+
+
+/* login page */
+
+.login-card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.login-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-card input{
+    width:400px;
+}
+.login-card .form-control{
+    background-color: var(--color-ededed);
+    border-radius: 5px;
+    border: none;
+}
+.login-card .form-control:focus{
+    border: none;
+}
+/* login Page end */
