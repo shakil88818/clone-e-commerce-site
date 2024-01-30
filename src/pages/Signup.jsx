@@ -1,19 +1,38 @@
-import { Link } from "react-router-dom"
+
 import BreadCrumb from "../components/BreadCrumb"
 import MetaTitle from "../components/MetaTitle"
 
-const Login = () => {
+const Signup = () => {
   return (
     <>
-        <MetaTitle title={"Login"} />
-        <BreadCrumb title="Login" />
+        <MetaTitle title={"Sign up"} />
+        <BreadCrumb title="Sign Up" />
 
         <div className="login-wrapper home-wrapper-2 py-5">
           <div className="container-xxl">
             <div className="row">
-              <div className="">
+              <div className="login-box">
                 <div className="login-card ">
-                  <h5 className="text-center mb-3">login</h5>
+                  <h5 className="text-center mb-3">Create Account</h5>
+
+                  <div className="mb-3">
+                    <input 
+                      type="text" 
+                      className="form-control" 
+                      id="FirstName" 
+                      placeholder="First Name"
+                    />
+                  </div>
+
+                  <div className="mb-3">
+                    <input 
+                      type="text" 
+                      className="form-control" 
+                      id="lastName" 
+                      placeholder="Last Name"
+                    />
+                  </div>
+
                   <div className="mb-3">
                     <input 
                       type="email" 
@@ -32,13 +51,9 @@ const Login = () => {
                     />
                   </div>
 
-                  <p>
-                    <Link to="/forgot-password" className="mb-2">Forgot your password?</Link>
-                  </p>
 
                   <div className="d-flex align-items-center justify-content-center gap-15">
-                    <button className="button border-0">Log in</button>
-                    <Link to="/sign-up" className="button border-0 signup">Sign Up</Link>
+                    <button className="button border-0">Create</button>
                   </div>
 
                 </div>
@@ -46,9 +61,8 @@ const Login = () => {
             </div>
           </div>
         </div>
-      
     </>
   )
 }
 
-export default Login
+export default Signup

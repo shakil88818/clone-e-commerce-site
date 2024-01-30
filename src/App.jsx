@@ -11,6 +11,7 @@ import CompareProducts from './pages/CopareProducts'
 import Wishlist from './pages/Wishlist'
 import Login from './pages/Login'
 import ForgotPassword from './pages/ForgotPassword'
+import Signup from './pages/Signup'
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
             <Route path="wishlist" element={<Wishlist />} />
             <Route path="login" element={<Login />} />
             <Route path="forgot-password" element={<ForgotPassword />} />
+            <Route path="sign-up" element={<Signup />} />
           </Route>
         </Routes>
       </BrowserRouter>
