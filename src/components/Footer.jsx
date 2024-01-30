@@ -72,7 +72,7 @@ const Footer = () => {
             <div className="col-2">
               <h6 className="text-white pb-3">Information</h6>
               <div className="d-flex flex-column">
-                <Link to='' className="text-white pb-2 smallText">privacy Policy</Link>
+                <Link to='privacy-policy' className="text-white pb-2 smallText">privacy Policy</Link>
                 <Link to='' className="text-white pb-2 smallText">Refund Policy</Link>
                 <Link to='' className="text-white pb-2 smallText">Shipping Policy</Link>
                 <Link to='' className="text-white pb-2 smallText">Terms of Service</Link>

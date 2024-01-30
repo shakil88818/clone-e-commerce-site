@@ -14,6 +14,7 @@ import ForgotPassword from './pages/ForgotPassword'
 import Signup from './pages/Signup'
 import ResetPassword from './pages/ResetPassword'
 import SingleBlog from './pages/SingleBlog'
+import PrivacyPolicy from './pages/PrivacyPolicy'
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
             <Route path="forgot-password" element={<ForgotPassword />} />
             <Route path="sign-up" element={<Signup />} />
             <Route path="reset-password" element={<ResetPassword />} />
+            <Route path="privacy-policy" element={<PrivacyPolicy />} />
           </Route>
         </Routes>
       </BrowserRouter>
