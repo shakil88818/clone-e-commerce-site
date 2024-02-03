@@ -315,6 +315,7 @@ footer .input-group-text{
     border-radius: 10px;
     letter-spacing: 0.3px;
     overflow: hidden;
+    width: 100%;
 }
 .product-card:hover .action-bar{
     right: 17px;
@@ -421,6 +422,25 @@ footer .input-group-text{
     font-size: 0.9rem;
     color: var(--color-777777);
 }
+.gr-12{
+    width: 100%;
+}
+.gr-6{
+    width: 49%;
+}
+
+.gr-4{
+    width: 32%;
+}
+.gr-3{
+    width: 24%;
+}
+
+.gr-12 .product-card{
+    display: flex;
+    gap:20px;
+}
+
 /* our Store End */
 
 /* contact page */

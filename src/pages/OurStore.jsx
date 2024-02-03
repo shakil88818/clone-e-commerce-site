@@ -5,8 +5,14 @@ import MetaTitle from "../components/MetaTitle"
 import Colors from "../components/Colors";
 
 import ReactStars from "react-rating-stars-component";
+import { useState } from "react";
+
+
+import ProductCard from "../components/ProductCard";
 
 const OurStore = () => {
+  const [grid, setGrid] = useState()
+
   return (
     <>
       <MetaTitle title={"Our Store"} />
@@ -154,19 +160,32 @@ const OurStore = () => {
                     <p className="mb-0">21 Products</p>
 
                     <div className="gr-img">
-                      <img src="/images/gr4.svg" alt="gr" />
+                      <img onClick={()=>{setGrid(3)}} 
+                      src="/images/gr4.svg" 
+                      alt="gr"  
+                      />
                     </div>
 
                     <div className="gr-img">
-                      <img src="/images/gr3.svg" alt="gr" />
+                      <img onClick={()=>{setGrid(4)}}
+                      src="/images/gr3.svg" 
+                      alt="gr" 
+                      />
                     </div>
 
                     <div className="gr-img">
-                      <img src="/images/gr2.svg" alt="gr" />
+                      <img  onClick={()=>{setGrid(6)}}
+                      src="/images/gr2.svg" 
+                      alt="gr"
+                      />
+                       
                     </div>
 
                     <div className="gr-img">
-                      <img src="/images/gr.svg" alt="gr" />
+                      <img onClick={()=>{setGrid(12)}}
+                      src="/images/gr.svg" 
+                      alt="gr"
+                       />
                     </div>
                   </div>
 
@@ -174,6 +193,13 @@ const OurStore = () => {
 
 
 
+              </div>
+
+              <div className=" py-5 ">
+                <div className="d-flex gap-15 flex-wrap">
+                  <ProductCard grid={grid} />
+                  <ProductCard grid={grid} />
+                </div>
               </div>
             </div>
           </div>
