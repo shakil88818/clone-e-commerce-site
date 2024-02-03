@@ -2,6 +2,9 @@ import BreadCrumb from "../components/BreadCrumb"
 import Colors from "../components/Colors"
 import MetaTitle from "../components/MetaTitle"
 
+import cross from '../../public/images/cross.svg'
+import watch from '../../public/images/watch.jpg'
+
 const CompareProducts = () => {
   return (
     <>
@@ -13,9 +16,9 @@ const CompareProducts = () => {
 
                     <div className="col-3">
                         <div className="compare-card position-relative">
-                            <img className="img-fluid compare-cross position-absolute" src="/images/cross.svg" alt="cross" />
+                            <img className="img-fluid compare-cross position-absolute" src={cross} alt="cross" />
                             <div className="compare-img">
-                                <img className="img-fluid" src="/images/watch.jpg" alt="watch" />
+                                <img className="img-fluid" src={watch} alt="watch" />
                             </div>
                         </div>
 
@@ -58,9 +61,9 @@ const CompareProducts = () => {
 
                     <div className="col-3">
                         <div className="compare-card position-relative">
-                            <img className="img-fluid compare-cross position-absolute" src="/images/cross.svg" alt="cross" />
+                            <img className="img-fluid compare-cross position-absolute" src={cross} alt="cross" />
                             <div className="compare-img">
-                                <img className="img-fluid" src="/images/watch.jpg" alt="watch" />
+                                <img className="img-fluid" src={watch} alt="watch" />
                             </div>
                         </div>
 

@@ -2,7 +2,9 @@ import { Link } from "react-router-dom"
 
 import { FaSquareFacebook, FaSquareInstagram, FaLinkedin, FaSquareGithub } from "react-icons/fa6";
 
-
+import newsletter from "../../public/images/newsletter.png"
+import google_play from "../../public/images/google-play.png"
+import app_store from "../../public/images/app-store.png"
 
 const Footer = () => {
   return (
@@ -12,7 +14,7 @@ const Footer = () => {
           <div className="row">
             <div className="col-6">
               <div className="d-flex align-items-center gap-10">
-              <img src="/images/newsletter.png" alt="newsletter"/>
+              <img src={newsletter} alt="newsletter"/>
               <h4 className="text-white mb-0">Sign Up For Newsletter</h4>
               </div>
             </div>
@@ -108,8 +110,8 @@ const Footer = () => {
                 <p className="text-white smallText">Download our app and get extra 15% Discount on your First order</p>
                 
                 <div className="d-flex align-items-center gap-10">
-                  <Link><img src="/images/google-play.png" alt="google" /></Link>
-                  <Link><img src="/images/app-store.png" alt="app" /></Link>
+                  <Link><img src={google_play} alt="google" /></Link>
+                  <Link><img src={app_store} alt="app" /></Link>
                 </div>
 
               </div>

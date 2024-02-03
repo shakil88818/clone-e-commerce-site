@@ -1,6 +1,10 @@
 import ReactStars from "react-rating-stars-component";
 import { Link, useLocation } from "react-router-dom";
 
+import wish from '../../public/images/wish.svg'
+import prodcompare from '../../public/images/prodcompare.svg'
+import add_cart from '../../public/images/add-cart.svg'
+import view from '../../public/images/view.svg'
 
 const ProductCard = (props) => {
   const {grid} = props
@@ -11,7 +15,7 @@ const ProductCard = (props) => {
       <div className={`${location.pathname == "/ourstore" ? `gr-${grid}` : "col-3"} `}>
         <Link className="product-card position-relative">
             <div className="wishlist-icon position-absolute">
-                <Link><img src="/images/wish.svg" alt="wishlist" /></Link>
+                <Link><img src={wish} alt="wishlist" /></Link>
             </div>
             <div className="product-card-img">
                 <img src="/images/watch.jpg" alt="watch" />
@@ -31,9 +35,9 @@ const ProductCard = (props) => {
 
             <div className="action-bar position-absolute">
                 <div className="d-flex flex-column gap-15">
-                    <Link><img src="/images/prodcompare.svg" alt="compare" /></Link>
-                    <Link><img src="/images/add-cart.svg" alt="add-cart" /></Link>
-                    <Link><img src="/images/view.svg" alt="view" /></Link>
+                    <Link><img src={prodcompare} alt="compare" /></Link>
+                    <Link><img src={add_cart} alt="add-cart" /></Link>
+                    <Link><img src={view} alt="view" /></Link>
                 </div>
             </div>
 

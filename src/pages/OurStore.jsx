@@ -1,14 +1,17 @@
+import { useState } from "react"; 
+import ReactStars from "react-rating-stars-component";
 
 import BreadCrumb from "../components/BreadCrumb"
 import MetaTitle from "../components/MetaTitle"
-
 import Colors from "../components/Colors";
-
-import ReactStars from "react-rating-stars-component";
-import { useState } from "react";
-
-
 import ProductCard from "../components/ProductCard";
+
+import gr from "../../public/images/gr.svg"
+import gr2 from "../../public/images/gr2.svg"
+import gr3 from "../../public/images/gr3.svg"
+import gr4 from "../../public/images/gr4.svg"
+
+
 
 const OurStore = () => {
   const [grid, setGrid] = useState()
@@ -161,21 +164,21 @@ const OurStore = () => {
 
                     <div className="gr-img">
                       <img onClick={()=>{setGrid(3)}} 
-                      src="/images/gr4.svg" 
+                      src={gr4} 
                       alt="gr"  
                       />
                     </div>
 
                     <div className="gr-img">
                       <img onClick={()=>{setGrid(4)}}
-                      src="/images/gr3.svg" 
+                      src={gr3}
                       alt="gr" 
                       />
                     </div>
 
                     <div className="gr-img">
                       <img  onClick={()=>{setGrid(6)}}
-                      src="/images/gr2.svg" 
+                      src={gr2} 
                       alt="gr"
                       />
                        
@@ -183,7 +186,7 @@ const OurStore = () => {
 
                     <div className="gr-img">
                       <img onClick={()=>{setGrid(12)}}
-                      src="/images/gr.svg" 
+                      src={gr}
                       alt="gr"
                        />
                     </div>

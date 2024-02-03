@@ -1,6 +1,9 @@
 import BreadCrumb from "../components/BreadCrumb"
 import MetaTitle from "../components/MetaTitle"
 
+import cross from "../../public/images/cross.svg"
+import watch from "../../public/images/watch.jpg"
+
 const Wishlist = () => {
   return (
     <>
@@ -12,8 +15,8 @@ const Wishlist = () => {
 
                     <div className="col-3">
                         <div className="wishlist-card position-relative">
-                            <img className="img-fluid position-absolute wishlist-cross" src="/images/cross.svg" alt="cross" />
-                            <img className="" src="/images/watch.jpg" alt="watch" />
+                            <img className="img-fluid position-absolute wishlist-cross" src={cross} alt="cross" />
+                            <img className="" src={watch} alt="watch" />
                         </div>
 
                         <div className="px-3">
@@ -25,8 +28,8 @@ const Wishlist = () => {
 
                     <div className="col-3">
                         <div className="wishlist-card position-relative">
-                            <img className="img-fluid position-absolute wishlist-cross" src="/images/cross.svg" alt="cross" />
-                            <img className="" src="/images/watch.jpg" alt="watch" />
+                            <img className="img-fluid position-absolute wishlist-cross" src={cross} alt="cross" />
+                            <img className="" src={watch} alt="watch" />
                         </div>
 
                         <div className="px-3">
