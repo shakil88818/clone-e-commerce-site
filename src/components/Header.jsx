@@ -1,11 +1,11 @@
 import { FaSearch } from "react-icons/fa";
 import { Link, NavLink } from "react-router-dom";
 
-import compare from "../../public/images/compare.svg"
-import wishlist from "../../public/images/wishlist.svg"
-import user from "../../public/images/user.svg"
-import cart from "../../public/images/cart.svg"
-import menu from "../../public/images/menu.svg"
+import compare from "/images/compare.svg"
+import wishlist from "/images/wishlist.svg"
+import user from "/images/user.svg"
+import cart from "/images/cart.svg"
+import menu from "/images/menu.svg"
 
 
 const Header = () => {

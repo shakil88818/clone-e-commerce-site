@@ -2,9 +2,9 @@ import { Link } from "react-router-dom"
 
 import { FaSquareFacebook, FaSquareInstagram, FaLinkedin, FaSquareGithub } from "react-icons/fa6";
 
-import newsletter from "../../public/images/newsletter.png"
-import google_play from "../../public/images/google-play.png"
-import app_store from "../../public/images/app-store.png"
+import newsletter from "/images/newsletter.png"
+import google_play from "/images/google-play.png"
+import app_store from "/images/app-store.png"
 
 const Footer = () => {
   return (

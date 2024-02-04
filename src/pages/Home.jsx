@@ -4,30 +4,30 @@ import BlogCard from "../components/BlogCard";
 import ProductCard from "../components/ProductCard";
 import SpecialProduct from "../components/SpecialProduct";
 
-import catbanner_01 from "/public/images/catbanner-01.jpg"
-import catbanner_02 from "/public/images/catbanner-02.jpg"
-import catbanner_03 from "/public/images/catbanner-03.jpg"
-import catbanner_04 from "/public/images/catbanner-04.jpg"
+import catbanner_01 from "/images/catbanner-01.jpg"
+import catbanner_02 from "/images/catbanner-02.jpg"
+import catbanner_03 from "/images/catbanner-03.jpg"
+import catbanner_04 from "/images/catbanner-04.jpg"
 
-import service from "../../public/images/service.png"
-import service_02 from "../../public/images/service-02.png"
-import service_03 from "../../public/images/service-03.png"
-import service_04 from "../../public/images/service-04.png"
-import service_05 from "../../public/images/service-05.png"
+import service from "/images/service.png"
+import service_02 from "/images/service-02.png"
+import service_03 from "/images/service-03.png"
+import service_04 from "/images/service-04.png"
+import service_05 from "/images/service-05.png"
 
-import brand_01 from "../../public/images/brand-01.png"
-import brand_02 from "../../public/images/brand-02.png"
-import brand_03 from "../../public/images/brand-03.png"
-import brand_04 from "../../public/images/brand-04.png"
-import brand_05 from "../../public/images/brand-05.png"
-import brand_06 from "../../public/images/brand-06.png"
-import brand_07 from "../../public/images/brand-07.png"
-import brand_08 from "../../public/images/brand-08.png"
+import brand_01 from "/images/brand-01.png"
+import brand_02 from "/images/brand-02.png"
+import brand_03 from "/images/brand-03.png"
+import brand_04 from "/images/brand-04.png"
+import brand_05 from "/images/brand-05.png"
+import brand_06 from "/images/brand-06.png"
+import brand_07 from "/images/brand-07.png"
+import brand_08 from "/images/brand-08.png"
 
-import camera from "../../public/images/camera.jpg"
-import tv from "../../public/images/tv.jpg"
-import laptop from "../../public/images/laptop.jpg"
-import headphone from "../../public/images/headphone.jpg"
+import camera from "/images/camera.jpg"
+import tv from "/images/tv.jpg"
+import laptop from "/images/laptop.jpg"
+import headphone from "/images/headphone.jpg"
 
 
 

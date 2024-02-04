@@ -6,10 +6,10 @@ import MetaTitle from "../components/MetaTitle"
 import Colors from "../components/Colors";
 import ProductCard from "../components/ProductCard";
 
-import gr from "../../public/images/gr.svg"
-import gr2 from "../../public/images/gr2.svg"
-import gr3 from "../../public/images/gr3.svg"
-import gr4 from "../../public/images/gr4.svg"
+import gr from "/images/gr.svg"
+import gr2 from "/images/gr2.svg"
+import gr3 from "/images/gr3.svg"
+import gr4 from "/images/gr4.svg"
 
 
 

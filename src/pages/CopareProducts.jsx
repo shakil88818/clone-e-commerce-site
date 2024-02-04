@@ -2,8 +2,8 @@ import BreadCrumb from "../components/BreadCrumb"
 import Colors from "../components/Colors"
 import MetaTitle from "../components/MetaTitle"
 
-import cross from '../../public/images/cross.svg'
-import watch from '../../public/images/watch.jpg'
+import cross from '/images/cross.svg'
+import watch from '/images/watch.jpg'
 
 const CompareProducts = () => {
   return (

@@ -1,8 +1,8 @@
 import BreadCrumb from "../components/BreadCrumb"
 import MetaTitle from "../components/MetaTitle"
 
-import cross from "../../public/images/cross.svg"
-import watch from "../../public/images/watch.jpg"
+import cross from "/images/cross.svg"
+import watch from "/images/watch.jpg"
 
 const Wishlist = () => {
   return (

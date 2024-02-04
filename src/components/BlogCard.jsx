@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-import blog_1 from "../../public/images/blog-1.jpg"
+import blog_1 from "/images/blog-1.jpg"
 
 const BlogCard = () => {
   return (
