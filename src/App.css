@@ -21,6 +21,11 @@ a{
     text-decoration: none;
     display: inline-block;
 }
+.card{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
 .color{
     color: var(--color-777777)
 }
@@ -44,6 +49,27 @@ ul{
     font-weight: 600;
     letter-spacing: 0.4px;
 }
+.title-lg{
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+}
+.title-md{
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+}
+.title-sm{
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+}
+
+.border-bottom{
+    border-bottom: 1px solid var(--color-3b4149);
+    padding: 10px 0px;
+}
+
 .form-control:focus{
     box-shadow: none;
     border-color: inherit;
@@ -57,8 +83,17 @@ ul{
 .gap-30{
     gap:30px;
 }
+.gap-20{
+    gap:20px;
+}
 .smallText{
     font-size: 13px;
+}
+.description{
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.4px;
+    color: var(--color-777777);  
 }
 
 .button{
@@ -539,11 +574,13 @@ footer .input-group-text{
 .login-card .form-control:focus{
     border: none;
 }
-.login-card .signup{
+.login-card .signup,
+.singlepro-content .buy-it-now{
     background-color: var(--color-febd59);
     color: black
 }
-.login-card .signup:hover{
+.login-card .signup:hover,
+.singlepro-content .buy-it-now:hover{
     background-color: var(--color-131921);
     color: white;
 }
@@ -582,3 +619,39 @@ footer .input-group-text{
 }
 
 /* privacy plicy end */
+
+
+/* single product  */
+.reviews-card{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+.review-heading{
+    font-size: 20px;
+    letter-spacing: 0.4px;
+    color: var(--color-777777);
+}
+.review-small-text{
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    color: var(--color-777777);
+}
+
+.singlepro-content .form-control{
+    width: 70px;
+    padding: 8px 13px;
+}
+.singlePro-img img{
+    width: 100%;
+}
+.singlePro-img .img-thumbnail{
+    padding: 13px;
+}
+.singlePro-simg img{
+    width: 48.75%;
+}
+.singlePro-img .img-thumbnail{
+    padding: 15px;
+}
+/* single Product End */

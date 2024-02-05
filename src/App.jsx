@@ -15,6 +15,7 @@ import Signup from './pages/Signup'
 import ResetPassword from './pages/ResetPassword'
 import SingleBlog from './pages/SingleBlog'
 import PrivacyPolicy from './pages/PrivacyPolicy'
+import SingleProduct from './pages/SingleProduct'
 
 
 function App() {
@@ -26,7 +27,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
-            <Route path="ourstore" element={<OurStore />} />
+            <Route path="product" element={<OurStore />} />
+            <Route path="product/:id" element={<SingleProduct />} />
             <Route path="blog" element={<Blog />} />
             <Route path="blog/:id" element={<SingleBlog />} />
             <Route path="about" element={<About />} />
