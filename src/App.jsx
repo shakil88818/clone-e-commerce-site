@@ -16,6 +16,7 @@ import ResetPassword from './pages/ResetPassword'
 import SingleBlog from './pages/SingleBlog'
 import PrivacyPolicy from './pages/PrivacyPolicy'
 import SingleProduct from './pages/SingleProduct'
+import Cart from './pages/Cart'
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
             <Route path="product/:id" element={<SingleProduct />} />
             <Route path="blog" element={<Blog />} />
             <Route path="blog/:id" element={<SingleBlog />} />
+            <Route path="cart" element={<Cart />} />
             <Route path="about" element={<About />} />
             <Route path='contact' element = {<Contact />} />
             <Route path="compare-products" element={<CompareProducts />} />
