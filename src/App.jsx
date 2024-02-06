@@ -17,6 +17,7 @@ import SingleBlog from './pages/SingleBlog'
 import PrivacyPolicy from './pages/PrivacyPolicy'
 import SingleProduct from './pages/SingleProduct'
 import Cart from './pages/Cart'
+import Checkout from './pages/Checkout'
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
             <Route path="blog" element={<Blog />} />
             <Route path="blog/:id" element={<SingleBlog />} />
             <Route path="cart" element={<Cart />} />
+            <Route path="checkout" element={<Checkout />} />
             <Route path="about" element={<About />} />
             <Route path='contact' element = {<Contact />} />
             <Route path="compare-products" element={<CompareProducts />} />
