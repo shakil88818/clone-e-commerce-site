@@ -1,3 +1,5 @@
+
+import {useState} from "react"
 import { Link } from "react-router-dom"
 import Marquee from "react-fast-marquee";
 import BlogCard from "../components/BlogCard";
@@ -9,11 +11,11 @@ import catbanner_02 from "/images/catbanner-02.jpg"
 import catbanner_03 from "/images/catbanner-03.jpg"
 import catbanner_04 from "/images/catbanner-04.jpg"
 
-import service from "/images/service.png"
-import service_02 from "/images/service-02.png"
-import service_03 from "/images/service-03.png"
-import service_04 from "/images/service-04.png"
-import service_05 from "/images/service-05.png"
+// import service from "/images/service.png"
+// import service_02 from "/images/service-02.png"
+// import service_03 from "/images/service-03.png"
+// import service_04 from "/images/service-04.png"
+// import service_05 from "/images/service-05.png"
 
 import brand_01 from "/images/brand-01.png"
 import brand_02 from "/images/brand-02.png"
@@ -30,9 +32,13 @@ import laptop from "/images/laptop.jpg"
 import headphone from "/images/headphone.jpg"
 import Container from "../components/Container";
 
+import Data from "../utils/Data"
+import { v4 as uuidv4 } from 'uuid';
 
 
 const Home = () => {
+  const [services] = useState(Data)
+  console.log(Data)
   return (
     <>
       <Container class1="home-wrapper-1 py-5">
@@ -129,15 +135,23 @@ const Home = () => {
           <div className="row">
             <div className="col-12">
               <div className="services d-flex align-items-center justify-content-between gap-15">
-                <div className="d-flex align-items-center gap-15">
-                  <img src={service} alt="services" />
-                  <div>
-                    <h6>Free Shipping</h6>
-                    <p className="mb-0 smallText">from all orders $5</p>
-                  </div>
-                </div>
 
-                <div className="d-flex align-items-center gap-15">
+                {
+                  services.map((service)=>{
+                    return(
+                      <div className="d-flex align-items-center gap-15" key={uuidv4()}>
+                      <img src={service.image} alt="services" />
+                      <div>
+                        <h6>{service.title}</h6>
+                        <p className="mb-0 smallText">{service.tagline}</p>
+                      </div>
+                    </div>
+                    )
+                  })
+                }
+
+
+                {/* <div className="d-flex align-items-center gap-15">
                   <img src={service_02} alt="services" />
                   <div>
                     <h6>Daily Surprice Offers</h6>
@@ -167,7 +181,7 @@ const Home = () => {
                     <h6>Secure Payment</h6>
                     <p className="mb-0 smallText">100% protected Payment</p>
                   </div>
-                </div>
+                </div> */}
 
               </div>
             </div>
