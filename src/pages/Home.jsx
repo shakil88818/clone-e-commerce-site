@@ -28,14 +28,14 @@ import camera from "/images/camera.jpg"
 import tv from "/images/tv.jpg"
 import laptop from "/images/laptop.jpg"
 import headphone from "/images/headphone.jpg"
+import Container from "../components/Container";
 
 
 
 const Home = () => {
   return (
     <>
-      <section className="home-wrapper-1 py-5">
-        <div className="container-xxl">
+      <Container class1="home-wrapper-1 py-5">
           <div className="row">
             <div className="col-6">
                 <div className="main-banner position-relative">
@@ -123,11 +123,9 @@ const Home = () => {
             </div>
 
           </div>
-        </div>
-      </section>
+      </Container>
 
-      <section className="home-wrapper-2 py-5">
-        <div className="container-xxl">
+      <Container class1="home-wrapper-2 py-5">
           <div className="row">
             <div className="col-12">
               <div className="services d-flex align-items-center justify-content-between gap-15">
@@ -174,11 +172,9 @@ const Home = () => {
               </div>
             </div>
           </div>
-        </div>
-      </section>
+      </Container>
 
-      <section className="home-wrapper-2 py-5">
-        <div className="container-xxl">
+      <Container class1="home-wrapper-2 py-5">
           <div className="row">
             <div className="col-12">
               <div className="catagories d-flex flex-wrap align-items-center justify-content-between">
@@ -246,17 +242,13 @@ const Home = () => {
                   </div>
                   <img src={headphone} alt="headphone" />
                 </div>
-
                 
-
               </div>
             </div>
           </div>
-        </div>
-      </section>
+      </Container>
 
-      <section className="featured-wrapper py-5 home-wrapper-2">
-        <div className="container-xxl">
+      <Container class1="featured-wrapper py-5 home-wrapper-2">
           <div className="row">
             <div className="col-12">
               <h3 className="section-heading">Featured Collection</h3>
@@ -266,11 +258,9 @@ const Home = () => {
             <ProductCard/>
             <ProductCard/>
           </div>
-        </div>
-      </section>
+      </Container>
 
-      <section className="special-product-wrapper py-5 home-wrapper-2">
-        <div className="container-xxl">
+      <Container class1="special-product-wrapper py-5 home-wrapper-2">
           <div className="raw">
             <div className="col-12">
               <h3 className="section-heading">Spacial Product</h3>
@@ -281,11 +271,9 @@ const Home = () => {
               <SpecialProduct/>
             </div>
           </div>
-        </div>
-      </section>
+      </Container>
 
-      <section className="marque-wrapper py-5">
-        <div className="container-xxl">
+      <Container class1="marque-wrapper py-5">
           <div className="row">
             <div className="col-12">
               <div className="marque-inner-wrapper card-wraper">
@@ -321,11 +309,9 @@ const Home = () => {
               </div>
             </div>
           </div>
-        </div>
-      </section>
+      </Container>
 
-      <section className="featured-wrapper py-5 home-wrapper-2">
-        <div className="container-xxl">
+      <Container class1="featured-wrapper py-5 home-wrapper-2">
           <div className="row">
             <div className="col-12">
               <h3 className="section-heading">Our Populer Product</h3>
@@ -335,11 +321,9 @@ const Home = () => {
             <ProductCard/>
             <ProductCard/>
           </div>
-        </div>
-      </section>
+      </Container>
 
-      <section className="blog-wrapper py-5 home-wrapper-2">
-        <div className="container-xxl">
+      <Container class1="blog-wrapper py-5 home-wrapper-2">
           <div className="row">
             <div className="col-12">
               <h3 className="section-heading">Our Latest News</h3>
@@ -364,8 +348,7 @@ const Home = () => {
             </div>
 
           </div>
-        </div>
-      </section>
+      </Container>
     </>
   )
 }

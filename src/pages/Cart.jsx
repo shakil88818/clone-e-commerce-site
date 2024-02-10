@@ -6,15 +6,14 @@ import { MdDelete } from "react-icons/md";
 
 import headphone from '/images/headphone.jpg'
 import { Link } from "react-router-dom";
+import Container from "../components/Container";
 
 const Cart = () => {
   return (
     <>
         <MetaTitle title={"Cart"} />
         <BreadCrumb title="Cart" />
-
-        <section className="cart-wrapper home-wrapper-2 py-5">
-            <div className="container-xxl">
+        <Container class1="cart-wrapper home-wrapper-2 py-5">
                 <div className="row">
 
                     <div className="col-12">
@@ -84,8 +83,7 @@ const Cart = () => {
                     </div>
 
                 </div>
-            </div>
-        </section>
+        </Container>
     </>
   )
 }

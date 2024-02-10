@@ -11,6 +11,7 @@ import watch from '/images/blog-1.jpg'
 
 import { FaCodeCompare } from "react-icons/fa6";
 import { FaRegHeart } from "react-icons/fa";
+import Container from "../components/Container";
 
 const SingleProduct = () => {
     const [toggle, setToggle] = useState(false)
@@ -19,8 +20,7 @@ const SingleProduct = () => {
         <MetaTitle title={"Product Name"} />
         <BreadCrumb title="Product Name" />
 
-        <section className="singleProduct-wrapper home-wrapper-2 py-5">
-            <div className="container-xxl">
+        <Container class1="singleProduct-wrapper home-wrapper-2 py-5">
                 <div className="card">
                     <div className="row">
                         <div className="col-6">
@@ -123,11 +123,9 @@ const SingleProduct = () => {
 
                     </div>
                 </div>
-            </div>
-        </section>
+        </Container>
 
-        <section className="description-wrapper home-wrapper-2 py-5">
-            <div className="container-xxl">
+        <Container class1="description-wrapper home-wrapper-2 py-5">
                 <div className="row">
                     <div className="col-12">
                         <h3 className="section-heading">Description</h3>
@@ -136,12 +134,9 @@ const SingleProduct = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+        </Container>
 
-        <section className="reviews-wrapper home-wrapper-2 py-5">
-            <div className="container-xxl">
-
+        <Container class1="reviews-wrapper home-wrapper-2 py-5">
                 <div className="row">
                     <div className="col-12">
                         <h3 className="section-heading">Reviews</h3>
@@ -242,12 +237,9 @@ const SingleProduct = () => {
                         </div>
                     </div>
                 </div>
+        </Container>
 
-            </div>
-        </section>
-
-        <section className="featured-wrapper py-5 home-wrapper-2">
-        <div className="container-xxl">
+        <Container class1="featured-wrapper py-5 home-wrapper-2">
           <div className="row">
             <div className="col-12">
               <h3 className="section-heading">You May Also Like</h3>
@@ -257,8 +249,7 @@ const SingleProduct = () => {
             <ProductCard/>
             <ProductCard/>
           </div>
-        </div>
-        </section>
+        </Container>
     </>
   )
 }

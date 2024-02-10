@@ -1,4 +1,5 @@
 import BreadCrumb from "../components/BreadCrumb"
+import Container from "../components/Container"
 import MetaTitle from "../components/MetaTitle"
 
 import cross from "/images/cross.svg"
@@ -9,8 +10,7 @@ const Wishlist = () => {
     <>
         <MetaTitle title={"Wishlist"} />
         <BreadCrumb title="Wishlist" />
-        <div className="wishlist-wrapper py-5 home-wrapper-2">
-            <div className="container-xxl">
+        <Container class1="wishlist-wrapper py-5 home-wrapper-2">
                 <div className="row">
 
                     <div className="col-3">
@@ -40,8 +40,7 @@ const Wishlist = () => {
                     </div>
                     
                 </div>
-            </div>
-        </div>
+        </Container>
     </>
   )
 }

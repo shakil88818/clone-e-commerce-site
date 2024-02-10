@@ -1,37 +1,36 @@
 import { Link } from "react-router-dom"
 import BreadCrumb from "../components/BreadCrumb"
 import MetaTitle from "../components/MetaTitle"
+import Container from "../components/Container"
+import CustomInput from "../components/CustomInput"
 
 const Login = () => {
   return (
     <>
         <MetaTitle title={"Login"} />
         <BreadCrumb title="Login" />
-
-        <div className="login-wrapper home-wrapper-2 py-5">
-          <div className="container-xxl">
+        <Container class1="login-wrapper home-wrapper-2 py-5">
             <div className="row">
               <div className="">
                 <div className="login-card ">
                   <h5 className="text-center mb-3">login</h5>
-                  <div className="mb-3">
-                    <input 
+
+                  <CustomInput 
                       type="email" 
+                      name="email"
                       className="form-control" 
                       id="email" 
                       placeholder="Enter your Email"
-                    />
-                  </div>
+                  />
 
-                  <div className="mb-3">
-                    <input 
+                  <CustomInput 
                       type="password" 
+                      name="password"
                       className="form-control" 
                       id="password" 
                       placeholder="Enter your password"
-                    />
-                  </div>
-
+                  />
+                  
                   <p>
                     <Link to="/forgot-password" className="mb-2">Forgot your password?</Link>
                   </p>
@@ -44,8 +43,7 @@ const Login = () => {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
+        </Container>
       
     </>
   )

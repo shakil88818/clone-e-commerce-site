@@ -1,4 +1,5 @@
 import BreadCrumb from "../components/BreadCrumb"
+import Container from "../components/Container"
 import MetaTitle from "../components/MetaTitle"
 
 const PrivacyPolicy = () => {
@@ -6,9 +7,7 @@ const PrivacyPolicy = () => {
     <>
         <MetaTitle title={"Dynamic single Name"} />
         <BreadCrumb title="Dynamic single Name" />
-
-        <section className="privacy-policy-wrapper home-wrapper-2 py-5">
-            <div className="container-xxl">
+        <Container class1="privacy-policy-wrapper home-wrapper-2 py-5">
                 <div className="row">
                     <div className="col-12">
                         <div className="privacy-policy-card">
@@ -35,8 +34,7 @@ const PrivacyPolicy = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+        </Container>
     </>
   )
 }

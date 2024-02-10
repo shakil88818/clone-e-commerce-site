@@ -1,5 +1,6 @@
 import BreadCrumb from "../components/BreadCrumb"
 import Colors from "../components/Colors"
+import Container from "../components/Container"
 import MetaTitle from "../components/MetaTitle"
 
 import cross from '/images/cross.svg'
@@ -10,8 +11,7 @@ const CompareProducts = () => {
     <>
         <MetaTitle title={"Compare Products"} />
         <BreadCrumb title="Compare Products" />
-        <div className="compare-wrapper home-wrapper-2 py-5">
-            <div className="container-xxl">
+        <Container class1="compare-wrapper home-wrapper-2 py-5">
                 <div className="row">
 
                     <div className="col-3">
@@ -105,8 +105,7 @@ const CompareProducts = () => {
                     </div>
                     
                 </div>
-            </div>
-        </div>
+        </Container>
       
     </>
   )

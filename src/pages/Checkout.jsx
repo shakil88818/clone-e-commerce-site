@@ -3,12 +3,12 @@ import { MdInfoOutline } from "react-icons/md";
 import { MdKeyboardArrowLeft } from "react-icons/md";
 
 import headphone from '/images/headphone.jpg'
+import Container from "../components/Container";
 
 const Checkout = () => {
   return (
     <>
-      <section className="checkout-wrapper home-wrapper-2 py-5">
-        <div className="container-xxl">
+      <Container class1="checkout-wrapper home-wrapper-2 py-5">
             <div className="row">
                 <div className="col-7">
                     <div className="checkout-left-data pe-5">
@@ -185,8 +185,7 @@ const Checkout = () => {
                     </div>
                 </div>
             </div>
-        </div>
-      </section>
+      </Container>
     </>
   )
 }

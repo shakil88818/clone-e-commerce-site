@@ -1,5 +1,6 @@
 import BlogCard from "../components/BlogCard"
 import BreadCrumb from "../components/BreadCrumb"
+import Container from "../components/Container"
 import MetaTitle from "../components/MetaTitle"
 
 const Blog = () => {
@@ -7,8 +8,7 @@ const Blog = () => {
     <>
         <MetaTitle title={"Blog"} />
         <BreadCrumb title="Blog" />
-        <div className="blog-wrapper py-4 home-wrapper-2">
-            <div className="container-xxl">
+        <Container class1="blog-wrapper py-4 home-wrapper-2">
                 <div className="row">
                     <div className="col-3">
                         <div className="filter-card mb-3">
@@ -42,8 +42,7 @@ const Blog = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+        </Container>
 
     </>
   )

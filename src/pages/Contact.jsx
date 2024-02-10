@@ -4,14 +4,14 @@ import MetaTitle from "../components/MetaTitle"
 import { FaHouse,FaPhone } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
 import { FaInfo } from "react-icons/fa";
+import Container from "../components/Container";
 
 const Contact = () => {
   return (
     <>
         <MetaTitle title={"Contact"} />
         <BreadCrumb title="Contact" />
-        <div className="contact-wrapper home-wrapper-2">
-          <div className="container-xxl">
+        <Container class1="contact-wrapper home-wrapper-2">
             <div className="row">
               <div className="col-12">
               <iframe 
@@ -105,8 +105,7 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
+        </Container>
     </>
   )
 }

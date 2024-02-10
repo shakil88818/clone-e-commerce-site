@@ -1,5 +1,7 @@
 
 import BreadCrumb from "../components/BreadCrumb"
+import Container from "../components/Container"
+import CustomInput from "../components/CustomInput"
 import MetaTitle from "../components/MetaTitle"
 
 const ResetPassword = () => {
@@ -7,34 +9,26 @@ const ResetPassword = () => {
     <>
         <MetaTitle title={"Reset password"} />
         <BreadCrumb title="Reset password" />
-
-        <div className="login-wrapper home-wrapper-2 py-5">
-          <div className="container-xxl">
+        <Container class1="login-wrapper home-wrapper-2 py-5">
             <div className="row">
               <div className="">
                 <div className="login-card ">
                   <h5 className="text-center mb-3">Reset Password</h5>
 
-
-                  <div className="mb-3">
-                    <input 
+                  <CustomInput 
                       type="password" 
+                      name="password"
                       className="form-control" 
                       id="password" 
                       placeholder="password"
-                    />
-                  </div>
-
-                  
-                  <div className="mb-3">
-                    <input 
-                      type="password" 
+                  />
+                  <CustomInput 
+                      type="password"
+                      name="confirmPassword"
                       className="form-control" 
-                      id="password" 
+                      id="confirm-password" 
                       placeholder="confirm password"
-                    />
-                  </div>
-
+                  />                  
 
                   <div className="d-flex align-items-center justify-content-center gap-15">
                     <button className="button border-0">Ok</button>
@@ -44,8 +38,7 @@ const ResetPassword = () => {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
+        </Container>
     </>
   )
 }

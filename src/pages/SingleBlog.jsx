@@ -3,14 +3,14 @@ import BreadCrumb from "../components/BreadCrumb"
 import MetaTitle from "../components/MetaTitle"
 
 import { FaArrowLeftLong, FaLinkedin, FaSquareFacebook, FaSquareGithub, FaSquareInstagram } from "react-icons/fa6";
+import Container from "../components/Container";
 
 const SingleBlog = () => {
   return (
     <>
         <MetaTitle title={"Dynamic single Name"} />
         <BreadCrumb title="Dynamic single Name" />
-        <div className="single-blog-wrapper home-wrapper-2 py-5">
-        <div className="container-xxl">
+        <Container class1="single-blog-wrapper home-wrapper-2 py-5">
             <div className="row">
 
                 <div className="col-3">
@@ -89,8 +89,7 @@ const SingleBlog = () => {
                     </div>
                 </div>
             </div>
-        </div>
-        </div>
+        </Container>
       
     </>
   )
